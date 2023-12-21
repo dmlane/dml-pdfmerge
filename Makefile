@@ -31,7 +31,7 @@ $(WORK_DIR)/%.homebrew: $(WORK_DIR)/%.fury
 	@touch $@
 $(WORK_DIR)/%.fury: $(WORK_DIR)/%.build
 	$(DISPLAY)
-	@fury push --public dist/$(PROJECT_NAME)-*.whl
+	fury push --public dist/$(PROJECT_NAME)-*.whl
 	@touch $@
 $(WORK_DIR)/%.build: $(WORK_DIR)/%.bumpver
 	$(DISPLAY)
