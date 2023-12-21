@@ -16,7 +16,7 @@ def test_version_setup(capsys):
         with patch("sys.argv", ["pdfmerge.py", "-V"]):
             PdfMerge()
     result = capsys.readouterr()
-    assert result.out == version("pdfmerge") + "\n"
+    assert result.out == version("dml-pdfmerge") + "\n"
     assert pytest_wrapped_e.type == SystemExit
     assert pytest_wrapped_e.value.code == 0
 
