@@ -47,7 +47,7 @@ class PdfMerge:
             "-V",
             "--version",
             action="version",
-            version=version("pdfmerge"),
+            version=version("dml-pdfmerge"),
             help="Print the version number",
         )
         self.parser.add_argument(
