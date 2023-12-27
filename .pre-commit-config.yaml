@@ -4,7 +4,7 @@ repos:
   hooks:
     - id: pre-commit.sh
       name: pre-commit.sh
-      entry: .run/pre_commit.sh
+      entry: .common/bin/pre_commit.sh
       language: script
       pass_filenames: false
 
