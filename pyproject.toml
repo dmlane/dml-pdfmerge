@@ -19,6 +19,7 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.11,<4"
 pypdf = "^3.17.3"
+pypi-simple = "^1.4.0"
 
 [tool.poetry.group.docs]
 optional = true
