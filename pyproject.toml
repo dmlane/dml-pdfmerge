@@ -78,3 +78,6 @@ line_length = 100
 
 [tool.pytest.ini_options]
 pythonpath = "src/pdfmerge"
+
+[tool.homebrew]
+build = true
